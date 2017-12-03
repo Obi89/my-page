@@ -321,3 +321,11 @@ footer{
   float: left;
   font-size: 12px;
 }
+
+.footermain a{
+color: white;
+}
+
+.footermain a:hover{
+color: rgba(180, 180, 180, 1);
+}
