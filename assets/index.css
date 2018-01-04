@@ -16,7 +16,6 @@ nav{
 .index{
   border: white solid 0.2px;
   margin-top: -50px;
-  height: 1200px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
@@ -25,6 +24,7 @@ nav{
   background-size: cover;
 }
 .name{
+margin-bottom: 250px;
   margin-top: 250px;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -43,7 +43,6 @@ nav{
 .contact{
   border: white solid 0.2px;
   margin-top: -50px;
-  height: 1100px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
@@ -52,7 +51,7 @@ nav{
   background-size: cover;
 }
 .contact_head{
-  margin: 100px 10% 0px 10%;
+  margin: 100px 10% 150px 10%;
   padding: 40px 20px;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -75,7 +74,6 @@ nav{
 .about{
   border: white solid 0.2px;
   margin-top: -50px;
-  height: 1200px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
@@ -84,7 +82,7 @@ nav{
   background-size: cover;
 }
 .head_about{
-  margin: 100px 10% 30px 10%;
+  margin: 100px 10% 250px 10%;
   text-align: center;
   color: rgb(0, 0, 0);
   font-family: 'Titillium Web', sans-serif;
@@ -116,7 +114,6 @@ nav{
 .projects{
   border: white solid 0.2px;
   margin-top: -50px;
-  height: 1200px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
@@ -146,11 +143,20 @@ nav{
   margin: 30px 0px;
   text-align: center;
 }
+.projects_text img{
+width:60%;
+height: auto;
+
+}
+.projects_text li{
+list-style-type:none;
+
+}
+
 
 .mblog{
-  border: white solid 0.2px;
+ border: white solid 0.2px;
   margin-top: -50px;
-  height: 1200px;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-clip: border-box;
@@ -316,10 +322,11 @@ footer{
 }
 .socicon .social{
   margin-top: 2px;
+  font-size: 14px;
 }
 .socicon .copy{
   float: left;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .footermain a{
@@ -328,4 +335,277 @@ color: white;
 
 .footermain a:hover{
 color: rgba(180, 180, 180, 1);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+nav{
+  background-color: rgba(120, 120, 120, 0.7);
+  font-family: 'Titillium Web', sans-serif;
+}
+.navbar-brand{
+  font-weight:normal;
+  font-size: 20px;
+  color: rgb(51, 133, 255);
+}
+.navi{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.index{
+  width: 100%;
+}
+.name{
+   padding: 1.0121457489878542510121457489879%;
+   margin-top: 120px;
+}
+.name h1{
+
+  font-size: 45px;
+
+}
+
+.contact{
+  width: 100%;
+}
+.contact_head{
+   padding: 1.0121457489878542510121457489879%;
+}
+.sidelogo img{
+   width: 25%;
+}
+.contact h1{
+font-size: 30px;
+   padding: 1.0121457489878542510121457489879%;
+}
+
+.about{
+ width: 100%;
+}
+.head_about{
+  padding: 1.0121457489878542510121457489879%;
+}
+.about h1{
+  font-size: 30px;
+
+}
+.about h3{
+  margin: 20px auto;
+  color: rgb(51, 133, 255);
+  font-family: 'Titillium Web', sans-serif;
+}
+.sidelogo_about img{
+  width: 25%;
+}
+.skill img{
+  margin: 20px 20px;
+}
+
+.projects{
+  width: 100%;
+}
+.head_projects{
+   padding: 1.0121457489878542510121457489879%;
+}
+.projects h1{
+   padding: 1.0121457489878542510121457489879%;
+   font-size: 30px;
+}
+.sidelogo_projects img{
+  width: 25%;
+}
+
+.mblog{
+  border: white solid 0.2px;
+  margin-top: -50px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+}
+}
+.container {
+font-size: 8px;
+  margin: 480px 10px;
+  color: rgb(0, 0, 0);
+  font-family: 'Titillium Web', sans-serif;
+  background-color: rgba(200, 200, 200, 0.7);
+  border-top: solid white 0.5px;
+  border-bottom: solid white 0.5px;
+  display: table;
+  left: 50%;
+  width: 80%;
+  padding: 10px;
+}
+.head_mblog h1{
+  color: rgb(51, 133, 255);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.head_mblog p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.container h6{
+  text-align: center;
+  font-size: 10px;
+}
+.container h2{
+  font-size: 10px;
+}
+ .container .next a{
+  font-size: 10px;
+}
+.container .back a{
+  font-size: 10px;
+}
+.sidelogo_blog img{
+margin-top: 20px;
+  width: 25%;
+}
+.container .blog {
+  display: inline-block;
+  height: auto;
+  width: 70%;
+}
+.container .blog.blog-right {
+  float: right;
+  width: 30%;
+}
+.container .blog.blog-left > .blog-item {
+  height: 48px;
+  margin-right: 40px;
+  margin-top: 0px;
+}
+.container .blog.blog-right > .blog-item {
+  height: 30px;
+}
+.container .blog > .blog-item:not(:last-child) {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.container .blog.blog-left > .blog-item:not(:last-child) {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+.container .blog > .blog-item > .blog-img {
+  float: left;
+  height: 45px;
+  margin-right: 10px;
+}
+.container .blog.blog-right > .blog-item > .blog-img {
+  height: 25px;
+}
+.container .blog.blog-left > .blog-item > .blog-content {
+  height: 40px;
+  padding: 15px 0;
+  color: black;
+
+}
+.container .blog.blog-right > .blog-item > .blog-content {
+  height: 25px;
+  padding: 10px 0;
+}
+.container .blog > .blog-item > img {
+  cursor: pointer;
+}
+.container .blog > .blog-item > .blog-content > h2 {
+  cursor: pointer;
+  margin: 0;
+  color: rgb(51, 133, 255);
+}
+.container .blog.blog-right > .blog-item > .blog-content > h2 {
+  font-size: 10px;
+  color: black;
+}
+.container .blog > .blog-item > .blog-content > span {
+  color: #cacaca;
+  display: inline-block;
+  font-size: 75%;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: rgb(41, 122, 245);
+}
+.container .blog > .blog-item > .blog-content > p {
+  color: black;
+}
+.container .blog > .blog-item > .blog-content > p > a {
+  color: black;
+  font-weight: bold;
+  transition: color 0.5s;
+}
+.container .blog > .blog-item > .blog-content > p > a:hover {
+  color: #0056c7;
+}
+
+.request{
+  padding: 1.0121457489878542510121457489879%;
+
+}
+.request h1{
+  color: rgb(51, 133, 255);
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+}
+.sidelogo_request{
+  margin-bottom: 30px;
+}
+
+.form-group{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+footer{
+  text-align: center;
+  background-color: rgba(120, 120, 120, 0.7);
+  font-family: 'Titillium Web', sans-serif;
+  position: fixed;
+  bottom: 0px;
+  color: white;
+  width: 100%;
+}
+.socicon div{
+  float: right;
+  margin: 6px 10px 0px 5px;
+}
+.socicon .social{
+  margin-top: 2px;
+  font-size: 10px;
+}
+.socicon .copy{
+  float: left;
+  font-size: 8px;
+}
+
+.footermain a{
+color: white;
+}
+
+.footermain a:hover{
+color: rgba(180, 180, 180, 1);
+}
+.projects_text img{
+width:60%;
+height: auto;
+
+}
+
+.projects_text li{
+list-style-type:none;
+}
+
 }
